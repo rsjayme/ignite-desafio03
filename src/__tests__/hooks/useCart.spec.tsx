@@ -91,6 +91,7 @@ describe('useCart Hook', () => {
 
     await waitForNextUpdate({ timeout: 200 });
 
+
     expect(result.current.cart).toEqual(
       expect.arrayContaining([
         {
